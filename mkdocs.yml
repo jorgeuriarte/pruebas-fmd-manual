@@ -1,0 +1,4 @@
+site_name: Mi Manual de Usuario
+nav:
+  - Introducción: 'docs/introduction.md'
+  - Capítulo 1: 'docs/chapter1.md'
