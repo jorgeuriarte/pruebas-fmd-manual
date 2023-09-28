@@ -13,10 +13,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Build documentation using MkDocs Action
-      uses: ghcr.io/guts/mkdocs@master
+   - name: Build documentation using MkDocs Action
+      uses: mhausenblas/mkdocs-deploy-gh-pages@master
       with:
-        command: build
+        build_only: true
 
     - name: Build Docker image with Nginx
       run: docker build -t fmd-manual:latest .
