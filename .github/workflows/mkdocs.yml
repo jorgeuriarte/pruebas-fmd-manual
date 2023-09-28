@@ -1,4 +1,4 @@
-name: Generate MkDocs Documentation
+name: Generate MkDocs Documentation and Docker Image
 
 on:
   push:
@@ -13,21 +13,16 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
+    - name: Build documentation using MkDocs Action
+      uses: ghcr.io/guts/mkdocs@master
       with:
-        python-version: '3.x'
+        command: build
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install mkdocs
+    - name: Build Docker image with Nginx
+      run: docker build -t fmd-manual:latest .
 
-    - name: Build documentation
-      run: mkdocs build
+    - name: Login to DockerHub
+      run: echo "${{ secrets.GAILEN_DOCKERHUB_PASSWORD }}" | docker login -u gailen --password-stdin
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./site
+    - name: Push Docker image
+      run: docker push fmd-manual:latest
