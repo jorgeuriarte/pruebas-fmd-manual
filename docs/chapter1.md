@@ -4,3 +4,5 @@
 ![Imagen de Ejemplo](./images/example_image.jpg)
 
 Como puedes ver en la imagen anterior, la interfaz es intuitiva y fácil de usar.
+
+Probamos.
