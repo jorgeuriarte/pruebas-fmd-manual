@@ -13,6 +13,12 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
+    - name: Setup Pandoc
+      uses: docker://pandoc/latex:2.9
+
+    - name: Convert Markdown to PDF
+      run: pandoc ./docs/*.md -o documentation.pdf
+
     - name: Build documentation using MkDocs Action
       uses: mhausenblas/mkdocs-deploy-gh-pages@master
       env:
