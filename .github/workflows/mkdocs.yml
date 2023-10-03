@@ -15,8 +15,8 @@ jobs:
 
     - name: Build documentation using MkDocs Action
       uses: mhausenblas/mkdocs-deploy-gh-pages@master
-      with:
-        build_only: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}        
 
     # - name: Build Docker image with Nginx
     #   run: docker build -t gailen/fmd-manual:latest .
