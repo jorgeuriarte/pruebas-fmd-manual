@@ -3,7 +3,7 @@ name: Generate MkDocs Documentation and Docker Image
 on:
   push:
     branches:
-      - main
+      - gh-pages
 
 jobs:
   build:
