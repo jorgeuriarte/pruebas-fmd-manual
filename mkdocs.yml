@@ -1,6 +1,14 @@
-site_name: Mi Manual de Usuario
+site_name: Medical Dispenser Online - Manual de usuario
 site_url: https://fagorhealthcare.github.io/fmd-manual/
 nav:
   - Introducción: 'introduction.md'
   - Capítulo 1: 'chapter1.md'
-theme: 'material'
+copyright: Fagor Halthcare &copy; 2023
+theme:
+  name: 'material'
+  logo: 'images/fagor-medical-dispenser-logo.png'
+  features:
+    - navigation.instant
+    - navigation.footer
+extra:
+  generator: false
