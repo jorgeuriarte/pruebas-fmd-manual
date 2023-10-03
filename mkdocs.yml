@@ -1,6 +1,0 @@
-site_name: Mi Manual de Usuario
-site_url: https://fagorhealthcare.github.io/fmd-manual/
-nav:
-  - Introducción: 'introduction.md'
-  - Capítulo 1: 'chapter1.md'
-theme: 'material'
