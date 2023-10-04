@@ -3,11 +3,7 @@ name: Generate MkDocs Documentation and Docker Image
 on:
   push:
     branches:
-<<<<<<< HEAD
       - main
-=======
-      - gh-pages
->>>>>>> parent of 693ffea... Deployed 1df0d5b with MkDocs version: 1.4.2
 
 jobs:
   convert_via_pandoc:
@@ -27,7 +23,7 @@ jobs:
     - name: Build documentation using MkDocs Action
       uses: mhausenblas/mkdocs-deploy-gh-pages@master
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}        
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     # - name: Build Docker image with Nginx
     #   run: docker build -t gailen/fmd-manual:latest .
