@@ -3,7 +3,11 @@ name: Generate MkDocs Documentation and Docker Image
 on:
   push:
     branches:
+<<<<<<< HEAD
       - main
+=======
+      - gh-pages
+>>>>>>> parent of 693ffea... Deployed 1df0d5b with MkDocs version: 1.4.2
 
 jobs:
   convert_via_pandoc:
