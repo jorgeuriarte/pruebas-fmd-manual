@@ -1,13 +1,10 @@
 # Medical Dispenser Online - Manual de usuario
 
-## Nivel 2
+## Explicación general del servicio
 
-En este capítulo, aprenderás los conceptos básicos para comenzar a utilizar nuestro producto.
+En este capítulos, aprenderás los conceptos básicos para comenzar a utilizar nuestro producto.
 
-### Subnivel 3
+En este capítulos, aprenderás los conceptos básicos para comenzar a utilizar nuestro producto.
 
-![Imagen de Ejemplo](./images/example_image.jpg)
+En este capítulos, aprenderás los conceptos básicos para comenzar a utilizar nuestro producto.
 
-Como puedes ver en la imagen anterior, la interfaz es intuitiva y fácil de usar.
-
-Probamos.
