@@ -2,7 +2,8 @@
 
 ## Contenidos
 
-Este repositorio contiene tanto los fuentes (en markdown) del manual, como la más reciente versión publicada en Github Pages.
+Este repositorio contiene las fuentes (en markdown) del manual de FMD Online.
+Los cambios en este repositorio actualizan automáticamente la versión publicada.
 
 Los contenidos a modificar están en el directorio `/docs`.
 
@@ -12,5 +13,6 @@ Los contenidos a modificar están en el directorio `/docs`.
 Para poder lanzar un servidor local y que se vaya autogenerando según se escriba en local, se puede lanzar `mkdocs` directamente via Docker.
 
 ```
-docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material 
+docker build . -t mktest
+docker run --rm -it -p 8000:8000 -v ${PWD}:/docs mktest
 ```

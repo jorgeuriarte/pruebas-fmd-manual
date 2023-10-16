@@ -1,10 +1,10 @@
-# Activación del servicio
+# Activación del servicio {{ site.client }}
 
 ## Solicitud de código de activación
 
 1. Debemos pulsar en el botón "Web" de la parte superior derecha de la pantalla.
 
-	![Botón 'Web'](./images/1_activacion_boton_web.jpg)
+	![Botón 'Web'](./images/1_activacion_boton_web_{{ site.client }}.jpg)
 
 1. En el formulario que se abrirá, rellenar los datos y enviarlo.
 	*El NIF/CIF debe ser el que figura en la actividad de la farmacia.*
