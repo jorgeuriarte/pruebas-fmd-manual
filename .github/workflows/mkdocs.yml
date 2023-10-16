@@ -24,7 +24,7 @@ jobs:
       uses: mhausenblas/mkdocs-deploy-gh-pages@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        CONFIG_FILE: mkdocs.yaml
+        CONFIG_FILE: mkdocs.yml
 
     # - name: Build Docker image with Nginx
     #   run: docker build -t gailen/fmd-manual:latest .
