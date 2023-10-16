@@ -1,2 +1,3 @@
 mkdocs-markdownextradata-plugin
 mkdocs-redirects
+mkdocs-static-i18n
