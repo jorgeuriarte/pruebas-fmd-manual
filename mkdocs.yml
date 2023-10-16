@@ -17,20 +17,20 @@ extra:
   site:
     client: CINFA
 plugins:
-  # - markdownextradata
-  # - i18n:
-  #     docs_structure: folder
-  #     languages:
-  #       - locale: es
-  #         name: Español
-  #         default: true
-  #         build: true
-  #       - locale: en
-  #         name: English
-  #         build: true
-  #         site_name: Medical Dispenser Online - User guide
-  #         nav_translations:
-  #           Inicio: Introduction
-  #           Activación del servicio: Service activation
-  #           Sincronización de categorías: Category synchronization
-  #           Acceso a la web: Web access
+  - i18n:
+      reconfigure_material: true
+      docs_structure: folder
+      languages:
+        - locale: es
+          name: Español
+          default: true
+          build: true
+        - locale: en
+          name: English
+          build: true
+          site_name: Medical Dispenser Online - User guide
+          nav_translations:
+            Inicio: Introduction
+            Activación del servicio: Service activation
+            Sincronización de categorías: Category synchronization
+            Acceso a la web: Web access
