@@ -25,16 +25,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         CONFIG_FILE: mkdocs.yml
+        EXTRA_PACKAGES: build-base
         REQUIREMENTS: requirements.txt
 
-    # - name: Build Docker image with Nginx
-    #   run: docker build -t gailen/fmd-manual:latest .
 
-    # - name: Login to Docker Hub
-    #   uses: docker/login-action@v2
-    #   with:
-    #     username: gailen
-    #     password: ${{ secrets.GAILEN_DOCKERHUB_PASSWORD }}
-
-    # - name: Push Docker image
-    #   run: docker push gailen/fmd-manual:latest
