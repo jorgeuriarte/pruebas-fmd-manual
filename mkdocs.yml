@@ -7,11 +7,25 @@ nav:
   - Acceso a la web: '3_acceso_web.md'
 copyright: Fagor Halthcare &copy; 2023
 theme:
-  name: 'material'
-  logo: 'images/fagor-medical-dispenser-logo.png'
+  name: material
+  font: false
+  logo:
+    images/fagor-medical-dispenser-logo.png
+  palette:
+    primary: blue
   features:
-    - navigation.instant
-    - navigation.footer
+    - navigation.expand
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - toc.follow
+    - toc.integrate
+# theme:
+#   name: 'material'
+#   logo: 'images/fagor-medical-dispenser-logo.png'
+#   features:
+#     - navigation.instant
+#     - navigation.footer
 extra:
   generator: false
   site:
