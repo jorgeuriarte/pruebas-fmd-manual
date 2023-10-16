@@ -17,7 +17,7 @@ extra:
   site:
     client: CINFA
 plugins:
-  - markdownextradata
+  # - markdownextradata
   - i18n:
       docs_structure: folder
       languages:
