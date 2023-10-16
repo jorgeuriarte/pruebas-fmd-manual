@@ -17,20 +17,17 @@ theme:
     - navigation.expand
     - navigation.indexes
     - navigation.sections
-    - navigation.tabs
+#    - navigation.tabs
     - toc.follow
     - toc.integrate
-# theme:
-#   name: 'material'
-#   logo: 'images/fagor-medical-dispenser-logo.png'
-#   features:
-#     - navigation.instant
-#     - navigation.footer
+    - navigation.instant
+    - navigation.footer
 extra:
   generator: false
   site:
     client: CINFA
 plugins:
+  - markdownextradata
   - i18n:
       reconfigure_material: true
       docs_structure: folder
