@@ -6,7 +6,7 @@
 
 	![Botón 'Web'](./images/1_activacion_boton_web_{{ site.client }}.jpg)
 
-1. En el formulario que se abrirá, rellenar los datos y enviarlo.
+1. En el formulario que se abrirá, rellenamos los datos y enviarlo.
 	*El NIF/CIF debe ser el que figura en la actividad de la farmacia.*
 
 	![Formulario de activación de clientes de CINFA](./images/1_activacion_form_cinfa.jpg)
