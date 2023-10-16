@@ -13,6 +13,5 @@ Los contenidos a modificar están en el directorio `/docs`.
 Para poder lanzar un servidor local y que se vaya autogenerando según se escriba en local, se puede lanzar `mkdocs` directamente via Docker.
 
 ```
-docker build . -t mktest
-docker run --rm -it -p 8000:8000 -v ${PWD}:/docs mktest
-```
+ docker run --rm -it -p 8000:8000 -v ${PWD}:/docs gailen/mkdocs-fmd
+ ```
