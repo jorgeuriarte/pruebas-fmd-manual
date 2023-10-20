@@ -23,17 +23,22 @@ theme:
 #    - navigation.tabs
     - toc.follow
     - toc.integrate
-    - navigation.instant
+#    - navigation.instant
     - navigation.footer
 extra:
   generator: false
   site:
     client: CINFA
 plugins:
+  - search:
+      lang:
+        - es
+        - en
   - markdownextradata
   - i18n:
       reconfigure_material: true
       docs_structure: folder
+      reconfigure_search: true
       languages:
         - locale: es
           name: Español
