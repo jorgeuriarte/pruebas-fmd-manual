@@ -1,12 +1,10 @@
 site_name: Medical Dispenser Online - Manual de usuario
 site_url: https://fagorhealthcare.github.io/fmd-manual/
 nav:
-  - Inicio: 'index.md'
   - Activación del servicio: '1_activacion.md'
   - Sincronización de categorías: '2_categorias.md'
   - Acceso a la web: '3_acceso_web.md'
   - Acciones web: '4_acciones_web.md'
-  - Gestión de pacientes y tratamientos: '5_gestion_pacientes_tratamientos.md'
   - Acciones FMD: '6_acciones_fmd.md'
 copyright: Fagor Halthcare &copy; 2023
 theme:
