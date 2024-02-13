@@ -3,6 +3,7 @@
 ## Solicitud de código de activación
 
 1. Debemos pulsar en el botón "Web" de la parte superior derecha de la pantalla.
+	
 
 	![Botón 'Web'](./images/1_activacion_boton_web.png)
 
